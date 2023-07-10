@@ -8,7 +8,7 @@
 public with sharing class NumberDifferenceHelperTest {
    
     @IsTest
-    static void diffBothApproachs_ZeroInputTest() {
+    static void diffBothApproaches_ZeroInputTest() {
         
         //Given
         Integer a = 0;
@@ -30,7 +30,7 @@ public with sharing class NumberDifferenceHelperTest {
     }
 
     @IsTest
-    static void diffBothApproachs_DefaultInputTest() {
+    static void diffBothApproaches_DefaultInputTest() {
         
         //Given
         Integer a = 100;
@@ -52,7 +52,7 @@ public with sharing class NumberDifferenceHelperTest {
     }
 
     @IsTest
-    static void diffBothApproachs_DefaultInverseInputTest() {
+    static void diffBothApproaches_DefaultInverseInputTest() {
         
         //Given
         Integer a = 50;
@@ -74,7 +74,7 @@ public with sharing class NumberDifferenceHelperTest {
     }
 
     @IsTest
-    static void diffBothApproachs_NegativeInputTest() {
+    static void diffBothApproaches_NegativeInputTest() {
         
         //Given
         Integer a = -50;
@@ -96,7 +96,7 @@ public with sharing class NumberDifferenceHelperTest {
     }
 
     @IsTest
-    static void diffBothApproachs_NegativeInverseInputTest() {
+    static void diffBothApproaches_NegativeInverseInputTest() {
         
         //Given
         Integer a = -10;
