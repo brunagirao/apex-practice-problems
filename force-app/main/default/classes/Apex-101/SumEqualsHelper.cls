@@ -1,5 +1,5 @@
 /************************************************************************************************
-* Name      : SumEqualsHelperHelper
+* Name      : SumEqualsHelper
 * Purpose   : Challenge #14 - Sum Equals: Given Integers a, b, and c, return true if a and b add up to c.
 * TestClass : SumEqualsHelperTest
 * Author    : Bruna Girão
