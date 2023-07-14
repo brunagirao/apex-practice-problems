@@ -1,8 +1,8 @@
 /************************************************************************************************
-* Name      : TeenagerHelperTest
-* Purpose   : Test Class of TeenagerHelper
+* Name      : AorAnHelperTest
+* Purpose   : Test Class of AorAnHelper
 * Author    : Bruna Girão
-* Date      : 05-07-2023
+* Date      : 13-07-2023
 **************************************************************************************************/
 @IsTest
 public with sharing class AorAnHelperTest {
