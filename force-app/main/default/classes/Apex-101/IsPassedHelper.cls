@@ -16,19 +16,13 @@ public with sharing class IsPassedHelper {
     
     public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
         //code here
-    
-        if(passedExam && (passedAssignments || passedProject)) {
+        if((passedExam && (passedAssignments || passedProject))
+        || (passedAssignments && (passedExam || passedProject))
+        || (passedProject && (passedExam || passedAssignments))
+        ) {
             return true;
         }
-    
-        if(passedAssignments && (passedExam || passedProject)) {
-            return true;
-        }
-    
-        if(passedProject && (passedExam || passedAssignments)) {
-            return true;
-        }
-    
+
         return false;
     
     }
