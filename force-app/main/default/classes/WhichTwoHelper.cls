@@ -4,7 +4,7 @@
               add up to the third and return 'a', 'b', 'c' depending on which the sum is. 
               If no two numbers add up to a third number, return an empty string. Assume that 
               multiple solutions do not exist.
-* TestClass : WhichTwoHelper
+* TestClass : WhichTwoHelperTest
 * Author    : Bruna Girão
 * Date      : 16-10-2023
 ***************************************************************************************************/
